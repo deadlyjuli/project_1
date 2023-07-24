@@ -1,0 +1,30 @@
+#Personal message
+first_name = "yuli"
+last_name = "yuliani"
+full_name = first_name + " " + last_name
+
+message = "Hello, " + full_name.title() + "would you like to learn Python today?" 
+print(message)
+
+#Name cases
+name = "yuli yuliani"
+print(name.title())
+print(name.upper())
+print(name.lower())
+
+#Famous quote
+message = "The earth is evil, we don't need to grief for it. Nobody will miss it - Melancholia."
+print(message)
+
+#Stripping names
+message = "Movies:\n\tFight\tClub\n\tMelancholia\n\tEnter\tThe\tvoid"
+print(message)
+
+movies = ' melancholia '
+movies.rstrip()
+movies.lstrip()
+movies.strip()
+
+
+
+
